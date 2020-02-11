@@ -81,5 +81,6 @@ def readPara(encodings,image,detection_method):
             0.75, (0, 255, 0), 2)
 
     # show the output image
-    cv2.imwrite("123.jpg", image)
+    cv2.imwrite("./home/static/images/123.jpg", image)
+    print("[INFO] file saved.")
     # cv2.waitKey(0)
