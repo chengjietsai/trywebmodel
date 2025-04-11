@@ -2,9 +2,11 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import math
 
 
 def main():
+    print("")
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'faceweb.settings')
     try:
         from django.core.management import execute_from_command_line
